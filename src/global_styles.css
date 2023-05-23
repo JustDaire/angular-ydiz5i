@@ -1,1 +1,35 @@
 /* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+h2 {
+  border: solid;
+  border-width: thin;
+  border-color: #e0e0e0;
+  background-color: #c6dafc;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.example-icon {
+  padding: 0.7em 0.57em;
+}
+
+.example-icon span {
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  width: 25em;
+}
