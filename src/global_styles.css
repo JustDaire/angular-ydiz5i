@@ -3,6 +3,26 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  margin: 1em;
+}
+
+button.default {
+  border-radius: 0%;
+  /* padding: 5em !important; */
+}
+
+.mat-mdc-raised-button {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.7em 0.57em !important;
+  display: inline-flex;
+  align-items: center;
 }
 
 .example-spacer {
